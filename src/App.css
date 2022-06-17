@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("/public/img/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner_content{
+  display:flex;
+  align-items: center;
+  height: 100vh;
+  color:white;
+}
+.container{ 
+  width: 1200px;                                                                                    
+  max-width: 1200px;
+  margin: 0 auto;
+  /* color:white; */
+}
+.banner__text{
+  width :500px;
+}
+.banner__text h3{
+  font-size: 50px;
+}
+.banner__text h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900px;
+  margin-top: 20px;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 1200px; */
+  width: 100%;
+  /* height: 10rem; */
+  margin: 0 auto;
+  /* display: grid;
+  grid-template-columns: 10rem 1fr 2fr 1fr 10rem; */
+
+}
+
+.navbar__text{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* .logo{
+  width: 220px;
+} */
+.logo{
+  height: 90px;
+  width: 15%;
+  /* background-color: yellow; */
+  font-size: 40px;
+  font-family: segoe UI;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 90px;
+}
+
+
+.navbar__ul{
+  width:100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+/* .nav__ul li a:hover {
+  background-color: white;
+  color: rgba(16, 128, 234, 1);
+  
+} */
+.banner__btn{
+  margin-top: 35px;
+
+}
+.btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.btn-smart{
+  background: darkblue;
+}
+/* about */
+.about {
+  padding: 80px 0;
+}
+
+.p-25 {
+  padding: 45px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.about h3 {
+  color: rgba(37, 37, 37, 0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.about h1 {
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.about p {
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 300;
+}
+
+.about__btn {
+  margin-top: 35px;
+}
+.about__img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about__img img {
+  width: 100%;
+}
+/* shop */
+.shop {
+  width: 100%;
+  /* background: url("/public/img/pcsell.jpg"); */
+  background: url("/public/img/bitcoin-buy-sell.jpg");
+  height: 600px;
+  /* background-attachment: fixed; */
+}
+.shop__text {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.shop__text h1{
+  width: auto;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight:600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+.shop__btn{
+  margin-top: 120px;
+}
+/* highlight */
+.highlight{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: rgba(16, 128, 234, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.highlight_container{
+  justify-content: space-between;
+}
+
+.high_ele{
+  width:22%;
+  height: 200px;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Segoe UI;
+  text-align: center;
+  color: white;
+}
+/**clients**/
+.clients {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  padding: 100px 0;
+  /* background: url("/img/bg.jpg"); */
+  background-color: rgba(16, 128, 234, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; 
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.client {
+  text-align: center;
+}
+.client h1 {
+  font-style: 45px;
+}
+.client p {
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+/**footer**/
+.footer{
+  width: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+}
+.footer_child{
+  height: 170px;
+  width: 100%;
+  background-color:#353232; 
+  font-family: seoge UI;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_child_1{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 30px;
+} */
+
+
+ul{
+  margin-top: 20px;
+}
+
+li{
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.first{
+  font-size: 30px;
+}
+
+.footer_child_4{
+  display:flex;
+  align-items: right;
+  justify-content: center;
+  align-items: center;
+} 
+@media (max-width: 700px) {
+  
+  .navbar__text {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .banner__text {
+    width: auto;
+  }
+  .banner__text h3 {
+    font-size: 25px !important;
+  }
+  .banner__text h1 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .banner__text p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .navbar__ul {
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar__ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .col-3,
+  .col-4,
+  .col-6 {
+    width: 100%;
+  }
+  .client {
+    margin: 20px 0;
+  }
+  .about h1 {
+    font-size: 25px;
+  }
+  .shop h1 {
+    font-size: 25px;
+  }
+}
